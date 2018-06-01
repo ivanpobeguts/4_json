@@ -1,6 +1,6 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+The project helps to transform your JSON file into readable form.
 
 # Quickstart
 
