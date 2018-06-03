@@ -12,5 +12,5 @@ def pretty_print_json(data):
 
 
 if __name__ == '__main__':
-    data = load_data("example.json")
-    pretty_print_json(data)
+    input_json = load_data("example.json")
+    pretty_print_json(input_json)
