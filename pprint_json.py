@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 def load_data(filepath):
@@ -12,5 +13,5 @@ def pretty_print_json(input_json):
 
 
 if __name__ == '__main__':
-    input_json = load_data("example.json")
+    input_json = load_data(sys.argv[1])
     pretty_print_json(input_json)
