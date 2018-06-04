@@ -9,7 +9,7 @@ def load_data(filepath):
         with open(filepath, 'r', encoding='utf8') as file:
             try:
                 parsed_json = json.load(file)
-            except Exception as ex:
+            except ValueError as ex:
                 print('{}: Incorrect json file (\'{}\')!'.format(type(ex).__name__, filepath))
     else:
         print('File \'{}\' does not exist!'.format(filepath))
