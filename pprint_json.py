@@ -12,8 +12,8 @@ def load_data(filepath):
                 return None
 
 
-def pretty_print_json(raw_json):
-    print(json.dumps(raw_json, indent=5, sort_keys=True, ensure_ascii=False))
+def pretty_print_json(parsed_json):
+    print(json.dumps(parsed_json, indent=5, sort_keys=True, ensure_ascii=False))
 
 
 if __name__ == '__main__':
